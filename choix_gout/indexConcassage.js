@@ -598,7 +598,7 @@
         /*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-        window.open("/choix_gout/indexEmpatage.html", "_self");
+        window.open("/Isis/choix_gout/indexEmpatage.html", "_self");
       });
     };
 
