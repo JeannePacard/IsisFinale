@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="=viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/css-paiement.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <img class="menu" src="img/menu.png" />
+    <header class="header">
+      <div class="header-top">
+        <a class="home-search" href="index.html">
+          <img class="home" src="img/home.png"
+        /></a>
+        <a href="index.html" class="logo"
+          ><img class="logo" src="img/logo.png"
+        /></a>
+        <a href="shop.html" class="shop-button mobileactiv"> SHOP </a>
+        <div class="shop-button-under-active"></div>
+      </div>
+      <nav class="header-nav">
+        <div class="header-line margin-top"></div>
+        <ul class="header-links">
+          <li>
+            <a class="women noactive" href="history.html"
+              >Elles ont marqué l'histoire</a
+            >
+          </li>
+          <li>
+            <a class="vulgarisation noactive" href="vulgarisation.html"
+              >créez votre propre bière</a
+            >
+          </li>
+          <li>
+            <a class="environment noactive" href="environment.html"
+              >Changez vos habitudes</a
+            >
+          </li>
+        </ul>
+        <div class="header-line"></div>
+      </nav>
+    </header>
+
+    <div class="paiement">
+      <div class="money">
+        <div class="button-input">
+          <input type="radio" name="button" class="button" checked />
+        </div>
+        <div class="money-text">
+          <img src="img/money.png" class="money-img" />
+          <div class="text">
+            <h1 class="text-title">Paiement par espèce</h1>
+            <p class="text-text">
+              Je m'engage à payer par espèce à la réception du colis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="bluecard">
+        <div class="button-input">
+          <input type="radio" name="button" class="button-card" />
+        </div>
+        <div class="card-text">
+          <img src="img/logo-cb.jpeg" class="bluecard-img" />
+          <div class="text">
+            <h1 class="text-title">Paiement par carte</h1>
+            <p class="text-text">
+              Je m'engage à payer par carte à la réception du colis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="button-valid">
+      <a class="valider">VALIDER LE PAIEMENT</a>
+    </div>
+  </body>
+  <footer class="footer">
+    <div class="footer-line"></div>
+
+    <div class="display">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <p>•</p>
+        <li><a href="history.html">Elles ont marqué l'histoire</a></li>
+        <p>•</p>
+        <li><a href="vulgarisation.html">Créez votre propre bière</a></li>
+        <p>•</p>
+        <li><a href="environment.html">Changez vos habitudes</a></li>
+        <p>•</p>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </div>
+    <p class="copyright">
+      © 2021-2022&nbsp; - Tous&nbsp; droits&nbsp; réservés -
+      <a href="ml.html">Mentions légales</a>
+    </p>
+  </footer>
+  <script src="js/valider.js" defer></script>
+  <script src="js/mobilemenu.js" defer></script>
+</html>

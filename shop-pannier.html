@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="=viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/css-pannier.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <img class="menu" src="img/menu.png" />
+    <header class="header">
+      <div class="header-top">
+        <a class="home-search" href="index.html">
+          <img class="home" src="img/home.png"
+        /></a>
+        <a href="index.html" class="logo"
+          ><img class="logo" src="img/logo.png"
+        /></a>
+        <a href="shop.html" class="shop-button mobileactiv"> SHOP </a>
+        <div class="shop-button-under-active"></div>
+      </div>
+      <nav class="header-nav">
+        <div class="header-line margin-top"></div>
+        <ul class="header-links">
+          <li>
+            <a class="women noactive" href="history.html"
+              >Elles ont marqué l'histoire</a
+            >
+          </li>
+          <li>
+            <a class="vulgarisation noactive" href="vulgarisation.html"
+              >créez votre propre bière</a
+            >
+          </li>
+          <li>
+            <a class="environment noactive" href="environment.html"
+              >Changez vos habitudes</a
+            >
+          </li>
+        </ul>
+        <div class="header-line"></div>
+      </nav>
+    </header>
+
+    <div class="shop-pannier">
+      <div class="first-beer">
+        <div class="beer-img">
+          <img src="img/brune_gb.png" alt="Bière brune" class="first-img" />
+        </div>
+        <div class="beer-description">
+          <h1 class="beer-title">PUISSANTE.</h1>
+          <p class="beer-text">
+            Vous souhaitez acheter notre black IPA à la légère touche d’orange
+            sanguine ? N'hésitez pas, ajoutez la à votre panier.
+          </p>
+          <p class="beer-text-price">Prix : <span>5</span>€<span>50</span></p>
+          <input
+            type="number"
+            name="nbr_beerGB"
+            min="1"
+            max="10"
+            class="number-buy"
+            placeholder="1"
+          />
+          <a href="#" class="buy">AJOUTER AU PANIER</a>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="second-beer">
+        <div class="beer-img">
+          <img src="img/blonde_épicé.png" alt="Bière brune" class="first-img" />
+        </div>
+        <div class="beer-description">
+          <h1 class="beer-title">ÉPICE.</h1>
+          <p class="beer-text">
+            N'attendez pas pour ajouter notre blonde IPA à votre panier. Elle
+            fera son effet avec son gout épicé et fruité à vos soirées.
+          </p>
+          <p class="beer-text-price">Prix : <span>5</span>€<span>50</span></p>
+          <input
+            type="number"
+            name="nbr_beerGB"
+            min="1"
+            max="10"
+            class="number-buy"
+            placeholder="1"
+          />
+          <a href="#" class="buy">AJOUTER AU PANIER</a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="third-beer">
+        <div class="beer-img">
+          <img
+            src="img/ambrée_biscuit.png"
+            alt="Bière brune"
+            class="first-img"
+          />
+        </div>
+        <div class="beer-description">
+          <h1 class="beer-title">BISCUIT.</h1>
+          <p class="beer-text">
+            Le gout fort de notre bière ambrée ainsi que ses notes de miels et
+            de biscuits vous satisferont. Vous devez la gouter !
+          </p>
+          <p class="beer-text-price">Prix : <span>5</span>€<span>50</span></p>
+          <input
+            type="number"
+            name="nbr_beerGB"
+            min="1"
+            max="10"
+            class="number-buy"
+            placeholder="1"
+          />
+          <a href="#" class="buy">AJOUTER AU PANIER</a>
+        </div>
+      </div>
+      <div class="button-valid">
+        <a href="shop-paiement.html" class="valider">VALIDER MON PANIER</a>
+      </div>
+    </div>
+  </body>
+
+  <footer class="footer">
+    <div class="footer-line"></div>
+
+    <div class="display">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <p>•</p>
+        <li><a href="history.html">Elles ont marqué l'histoire</a></li>
+        <p>•</p>
+        <li><a href="vulgarisation.html">Créez votre propre bière</a></li>
+        <p>•</p>
+        <li><a href="environment.html">Changez vos habitudes</a></li>
+        <p>•</p>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </div>
+    <p class="copyright">
+      © 2021-2022&nbsp; - Tous&nbsp; droits&nbsp; réservés -
+      <a href="ml.html">Mentions légales</a>
+    </p>
+  </footer>
+  <script src="js/mobilemenu.js" defer></script>
+</html>
