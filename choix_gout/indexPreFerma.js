@@ -446,7 +446,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Isis/choix_gout/indexFermentation.html', '_self');
+		window.open('/IsisFinale/choix_gout/indexFermentation.html', '_self');
 	}
 
 	// actions tween:
