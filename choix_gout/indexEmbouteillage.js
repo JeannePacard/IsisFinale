@@ -360,7 +360,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/vulgarisation.html', '_self');
+		window.open('/Isis/choix_gout/vulgarisation.html', '_self');
 		});
 	}
 
