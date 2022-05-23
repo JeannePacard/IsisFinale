@@ -1,0 +1,292 @@
+.title-part {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-img1,
+.top-img2 {
+  width: 80%;
+}
+
+.top-img1 {
+  margin-left: 22%;
+}
+
+.top-img2 {
+  position: relative;
+  z-index: -2;
+  margin-left: -8%;
+  margin-top: 8%;
+}
+
+.top-title {
+  color: #f0c300;
+  font-size: 2vw;
+  font-family: Poppins-bold;
+  margin-left: 35%;
+  margin-top: 3%;
+}
+
+/* first step */
+
+.first-step {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+
+.first-step {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.first-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: -18%;
+  width: 100%;
+}
+
+.first-left-text,
+.first-left-text-2 {
+  width: 60%;
+  font-size: 1.3vw;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.first-left-text {
+  margin-top: 7%;
+}
+
+.first-left-text-2 {
+  margin-top: 12%;
+  color: #f0c300;
+}
+
+.first-right-arrow {
+  width: 50%;
+  height: 50%;
+  margin-top: 35%;
+  margin-left: -30%;
+}
+
+.first-right-foam {
+  margin-left: 10%;
+  width: 75%;
+  height: auto;
+  border-radius: 100px;
+}
+
+/* second step */
+
+.second-step {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.second-left-img {
+  border-radius: 100px;
+  width: 25%;
+}
+
+.second-right-p {
+  width: 40%;
+  font-size: 1.3vw;
+  line-height: 1.2;
+  text-align: center;
+  margin-left: 5%;
+}
+
+/* third step */
+
+.third-step {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* img */
+
+.third-step-left-img {
+  margin-top: 6%;
+  transform: rotate(-90deg);
+  border-radius: 100px;
+  width: 90%;
+}
+
+.third-step-right-img {
+  width: 90%;
+  transform: rotate(90deg);
+  border-radius: 100px;
+}
+
+/* left */
+
+.third-step-left-p {
+  margin-top: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.3vw;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* right */
+
+.third-step-right-p {
+  margin-top: 22%;
+  width: 120%;
+  margin-left: -15%;
+  font-size: 1.3vw;
+  line-height: 1.2;
+  text-align: center;
+  color: #f0c300;
+}
+
+/* arrow */
+
+.third-step-middle {
+  width: 100%;
+}
+
+.third-step-middle-arrow1 {
+  width: 70%;
+  margin-top: 10%;
+}
+
+.third-step-middle-arrow2 {
+  height: 20%;
+  margin-left: -20%;
+  margin-top: 60%;
+}
+
+@media (max-width: 1000px) {
+  .title-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-img1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-right {
+    display: none;
+  }
+  .top-title {
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+  }
+  .title-part {
+    flex-direction: column;
+  }
+  /* first step */
+  .first-step {
+    flex-direction: column;
+  }
+  .first-right {
+    margin-left: 0;
+  }
+  .first-left-text,
+  .first-left-text-2 {
+    width: 90%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-left-text {
+    margin-top: 0%;
+  }
+
+  .first-left-text-2 {
+    margin-top: 10%;
+  }
+  .first-right {
+    flex-direction: column;
+  }
+  .first-right-arrow {
+    width: 30%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    transform: rotate(65deg);
+  }
+  .first-right-foam {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  /* second step */
+  .second-step {
+    flex-direction: column-reverse;
+  }
+  .second-left-img {
+    width: 50%;
+    margin-top: 5%;
+  }
+  .second-right-p {
+    width: 70%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* third step */
+  .third-step {
+    flex-direction: column;
+  }
+  .third-step-left {
+    width: 100%;
+  }
+  /* img */
+  .third-step-left-img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .third-step-right-img {
+    margin-top: -5%;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* left */
+  .third-step-left-p {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+  }
+  /* right */
+  .third-step-right-p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 20px;
+  }
+  /* arrow */
+  .third-step-middle {
+    display: none;
+  }
+}
