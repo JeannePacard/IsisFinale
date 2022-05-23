@@ -1,0 +1,394 @@
+/* TOP */
+.top {
+  font-family: Poppins;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.top-title {
+  font-family: Poppins-bold;
+  font-size: 4.2vw;
+  line-height: 1.5;
+  color: #f0c300;
+}
+
+.top-subtitle {
+  font-family: Poppins-medium;
+  font-size: 1.3vw;
+  line-height: 1.4;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+.top-subtitle span {
+  color: #f0c300;
+}
+
+.top-bouton {
+  font-family: Poppins-semibold;
+  color: #171717;
+  text-decoration: none;
+  background-color: #f4f2e6;
+  padding: 1.2% 4%;
+  font-size: 1.2vw;
+}
+
+.top-img {
+  width: 30%;
+  position: relative;
+  z-index: -1;
+  margin-top: -90%;
+  margin-left: 55%;
+  opacity: 0.3;
+  transform: rotate(20deg);
+}
+
+/* MIDDLE */
+.middle {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middle-img-1 {
+  border-radius: 75%;
+  width: 70%;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin-top: 8%;
+}
+
+.middle-title-1 {
+  font-family: Kabal;
+  font-size: large;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+}
+
+.middle-text-1 {
+  font-family: Poppins-medium;
+  margin: 7%;
+  line-height: 1.3;
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+.middle-title-1 span {
+  font-family: Poppins;
+}
+
+.middle-bouton {
+  display: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Poppins-regular;
+  margin-bottom: -9%;
+  color: #f4f2e6;
+  background-color: #171717;
+  text-decoration: none;
+  border: thick double #f4f2e6;
+  padding: 3% 9%;
+  font-size: 1.2vw;
+}
+
+.middle-bouton:hover {
+  border: thick double #f0c300;
+  color: #f0c300;
+}
+
+/* hildegarde */
+.hildegarde {
+  border: 1px solid #f4f2e6;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.hildegarde:hover .middle-bouton {
+  display: block;
+}
+
+/* deesse isis */
+.isis {
+  border: 1px solid #f4f2e6;
+  width: 40%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.isis:hover .middle-bouton {
+  display: block;
+}
+
+/* anne */
+.anne {
+  border: 1px solid #f4f2e6;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.anne:hover .middle-bouton {
+  display: block;
+}
+
+/* BOTTOM */
+.bottom-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-title {
+  margin-left: 15%;
+  font-size: 9vw;
+  color: #f0c300;
+  font-family: Poppins-black;
+}
+
+.bottom-subtitle {
+  margin-top: -1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 6vw;
+  color: #f0c300;
+  font-family: Poppins-black;
+}
+
+.bottom-subtitle2 {
+  margin-left: 8%;
+}
+
+/* LEFT */
+.bottom-text {
+  margin-left: 15%;
+  margin-right: 12%;
+  margin-top: 6%;
+  width: 60%;
+  font-size: 1.1vw;
+  text-align: left;
+  line-height: 1.3;
+  font-family: Poppins-medium;
+}
+
+.bottom-text span {
+  color: #f0c300;
+}
+
+.bottom-beer {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-title-2 {
+  width: 100%;
+  margin-top: 10%;
+  font-family: Kabal;
+  font-size: 1.4vw;
+  margin-left: 15%;
+  text-decoration: none;
+  color: #f4f2e6;
+}
+
+.fleche-img {
+  margin-left: -70%;
+  margin-top: 4%;
+  width: 25%;
+}
+
+.bottom-title-2 span {
+  font-family: Poppins;
+}
+.bottom-img {
+  width: 10 0%;
+}
+.bottom-img img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  transform: rotate(13deg);
+  margin-top: -100%;
+  margin-left: -45%;
+}
+
+/* RIGHT */
+.bottom-right {
+  margin-right: 14%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.bottom-number-1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.number-fermentation {
+  font-size: 6.4vw;
+  font-family: Kabal;
+}
+.text-fermentation {
+  font-size: 1.7vw;
+  color: #f0c300;
+  font-family: Poppins-medium;
+  line-height: 1.3;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.bottom-number-2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  margin-left: -45%;
+}
+
+.number-degres {
+  font-size: 6.4vw;
+  font-family: Kabal;
+}
+.text-degres {
+  font-size: 1.7vw;
+  color: #f0c300;
+  font-family: Poppins-medium;
+  line-height: 1.3;
+  margin-top: 9%;
+  margin-left: 5%;
+}
+
+.bottom-number-3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12%;
+  margin-left: -65%;
+}
+
+.number-histoire {
+  font-size: 6.4vw;
+  font-family: Kabal;
+}
+.text-histoire {
+  font-size: 1.7vw;
+  color: #f0c300;
+  font-family: Poppins-medium;
+  line-height: 1.3;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.text-histoire span {
+  font-family: Poppins-medium;
+}
+
+@media (max-width: 1000px) {
+  .bottom-text {
+    font-size: 14px;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .hildegarde,
+  .isis,
+  .anne {
+    margin: auto;
+    width: 60%;
+  }
+  .isis,
+  .anne {
+    margin-top: 6%;
+  }
+  .isis-middle-button {
+    margin-bottom: -5%;
+  }
+  .middle-title-1 {
+    font-size: 24px;
+  }
+  .middle-text-1 {
+    font-size: 16px;
+  }
+
+  .bottom-subtitle2 {
+    margin-left: 0%;
+  }
+  .bottom-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-img img {
+    margin-top: 0;
+    width: 23%;
+    margin-left: 62%;
+    margin-top: -20%;
+  }
+  .bottom-beer {
+    display: block;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  .bottom-title-2 {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  .fleche-img {
+    margin-left: 32%;
+    margin-top: -2%;
+    width: 18%;
+  }
+
+  .bottom-right {
+    margin-right: 0;
+    margin-top: -40%;
+    margin-bottom: 15%;
+  }
+
+  .bottom-number-1 {
+    margin-bottom: 3%;
+    margin-left: 15%;
+  }
+  .number-fermentation {
+    font-size: 60px;
+  }
+  .text-fermentation {
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .bottom-number-2 {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+  }
+  .number-degres {
+    font-size: 60px;
+  }
+  .text-degres {
+    font-size: 18px;
+    margin-top: 7%;
+    margin-left: 2%;
+  }
+
+  .bottom-number-3 {
+    margin-top: 0%;
+    margin-left: 15%;
+  }
+  .number-histoire {
+    font-size: 60px;
+  }
+  .text-histoire {
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+}

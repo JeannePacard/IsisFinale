@@ -1,0 +1,250 @@
+/* top */
+
+.firstdiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.first-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.biere-img {
+  width: 100%;
+}
+
+.fleche-img {
+  width: 10%;
+  margin-left: 2%;
+  margin-top: -5%;
+}
+
+.first-top-right {
+  width: 150%;
+  margin-left: 3%;
+}
+
+/* alignement chiffre */
+
+.quote {
+  margin-top: 28%;
+  font-size: 3.5vw;
+  font-family: Poppins-semibold;
+  color: #f0c300;
+}
+
+.first-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.number {
+  font-family: Kabal;
+  font-size: 13vw;
+}
+
+.quote-2 {
+  margin-left: 2%;
+  margin-top: 7%;
+  font-size: 1.7vw;
+  line-height: 1.4;
+}
+
+.percent {
+  font-size: 2.4vw;
+}
+
+/* title */
+
+.title {
+  margin-top: 2%;
+}
+
+.title-line {
+  display: block;
+  content: "";
+  width: 15%;
+  margin-left: 3%;
+  height: 2px;
+  background-color: #f0c300;
+}
+
+.subtitle {
+  margin-left: 3%;
+  margin-top: 1%;
+  font-size: 1.3vw;
+}
+
+/* first align */
+
+.first-step {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* left */
+
+.first-left {
+  margin-left: 6%;
+  font-size: 1.4vw;
+  width: 100%;
+}
+
+.first-left p {
+  line-height: 1.2;
+}
+
+.first-left img {
+  width: 40%;
+  float: right;
+  margin-right: -15%;
+}
+
+/* nombre */
+
+.first-number {
+  margin-left: 5%;
+  margin-top: -4%;
+  font-family: Kabal;
+  font-size: 17vw;
+  color: #171717;
+  text-shadow: -1px -1px 0 #f0c300, 1px -1px 0 #f0c300, -1px 1px 0 #f0c300,
+    1px 1px 0 #f0c300;
+}
+
+/* right */
+
+.first-right {
+  width: 100%;
+  color: #f0c300;
+  margin-top: 5%;
+  margin-left: 13%;
+  font-size: 1.4vw;
+}
+
+/* first */
+
+.second-step {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* second right */
+
+.second-right {
+  margin-left: 6%;
+  font-size: 1.4vw;
+  width: 100%;
+}
+
+.second-right p {
+  width: 80%;
+  line-height: 1.2;
+}
+
+.second-right img {
+  width: 20%;
+  margin-left: -23%;
+  margin-top: -8%;
+}
+
+/* nombre */
+
+.second-number {
+  margin-left: 5%;
+  margin-top: -4%;
+  font-family: Kabal;
+  font-size: 17vw;
+  color: #171717;
+  text-shadow: -1px -1px 0 #f0c300, 1px -1px 0 #f0c300, -1px 1px 0 #f0c300,
+    1px 1px 0 #f0c300;
+}
+
+/* left*/
+
+.second-left {
+  color: #f0c300;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 1.4vw;
+}
+
+/* levure */
+
+.levure {
+  width: 60%;
+  float: right;
+  margin-right: -10%;
+  margin-top: -15%;
+}
+
+/* eau */
+
+.eau {
+  width: 70%;
+  margin-left: -2%;
+  margin-top: -8%;
+}
+
+/* bouteille */
+
+.bouteille {
+  width: 38%;
+  float: right;
+  margin-right: -10%;
+  margin-top: -50%;
+}
+
+.text-2 {
+  margin-top: 20%;
+}
+
+/* resume */
+
+.resume {
+  margin-top: 10%;
+  margin-bottom: 8%;
+  text-align: center;
+}
+
+.title-resume {
+  font-size: 6.5vw;
+  font-family: Poppins-bold;
+}
+
+.title-resume span {
+  color: #f0c300;
+}
+
+.text-resume {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  width: 60%;
+}
+
+/* adaptation mobile */
+
+@media (max-width: 1000px) {
+  .first-right p,
+  .first-left p,
+  .second-left p,
+  .second-right p {
+    font-size: 17px;
+  }
+  .first-right p {
+    margin-left: -10%;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+}

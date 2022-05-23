@@ -1,0 +1,23 @@
+/* loader */
+
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Poppins-black;
+}
+
+.lettre {
+  color: #f0c300;
+  font-size: 8vw;
+}
+
+.fondu-out {
+  display: none;
+  transition: opacity 0.4s ease-out;
+}

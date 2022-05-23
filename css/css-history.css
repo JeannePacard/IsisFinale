@@ -1,0 +1,401 @@
+/* slider */
+
+.women-container {
+  margin-top: 10%;
+  display: none;
+}
+
+.showWomen {
+  display: block;
+}
+
+.femmes-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.femmes-left {
+  width: 35%;
+  margin-left: 5%;
+}
+
+.femmes-middle {
+  width: 30%;
+}
+
+.femmes-right {
+  width: 35%;
+}
+
+/* left */
+
+.femmes-title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+.femmes-name {
+  width: 90%;
+}
+
+.femmes-audio {
+  width: 10%;
+  margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.femmes-texte {
+  font-family: Poppins-light;
+  font-size: 1.4vw;
+  line-height: 1.4;
+  width: 60%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+/* middle */
+
+.femmes-img {
+  position: relative;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 26vw;
+  height: 35vw;
+  object-fit: cover;
+  border-radius: 35%;
+}
+
+.femmes-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5%;
+  cursor: pointer;
+}
+
+.circle {
+  position: relative;
+  z-index: 2;
+  width: 55%;
+  margin-top: -24%;
+  margin-left: 56%;
+}
+
+.femmes-lien {
+  font-family: Kabal;
+  text-transform: uppercase;
+  font-size: 1.4vw;
+  margin-left: 68%;
+  margin-top: -17%;
+}
+
+/* right */
+
+.femmes-right {
+  display: flex;
+  flex-direction: row;
+  margin-top: 17%;
+  color: #f0c300;
+  font-family: Poppins-light;
+  font-size: 1.8vw;
+}
+
+.femmes-right span {
+  font-size: 4vw;
+  margin-right: 3%;
+  margin-left: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* background */
+
+.years {
+  position: relative;
+  z-index: -3;
+  font-size: 35vw;
+  margin-left: -5%;
+  margin-top: -35%;
+  opacity: 0.1;
+}
+
+.years2 {
+  position: relative;
+  z-index: -3;
+  font-size: 35vw;
+  margin-top: -35%;
+  opacity: 0.1;
+}
+
+.years3 {
+  position: relative;
+  z-index: -3;
+  font-size: 35vw;
+  text-align: center;
+  margin-top: -30%;
+  opacity: 0.1;
+}
+
+.epoque {
+  position: relative;
+  z-index: -3;
+  font-size: 5vw;
+  text-align: right;
+  margin-top: -3%;
+  margin-right: 5%;
+  opacity: 0.1;
+}
+
+.number-women {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Kabal;
+  font-size: 1.3vw;
+}
+
+.number {
+  cursor: pointer;
+}
+
+.number:hover {
+  color: #f0c300;
+}
+
+.line {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 1.3vw;
+  background-color: #f0c300;
+}
+
+/* second part */
+
+.second-step {
+  width: 110%;
+  margin-left: -10%;
+  margin-top: -15%;
+  display: none;
+  flex-direction: row;
+}
+
+.open {
+  display: block;
+  animation: fade-in 4s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* left */
+
+.left {
+  margin-top: 15%;
+  margin-left: 8%;
+}
+
+.left-align {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-arrow {
+  width: 70%;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 20%;
+}
+
+.left-title {
+  font-size: 0.8vw;
+  width: 100%;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.left-title2 {
+  font-size: 0.8vw;
+  width: 100%;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+.left-title6 {
+  font-size: 0.8vw;
+  width: 130%;
+  margin-left: 11%;
+  margin-top: 25%;
+}
+
+.left-title6 h4 {
+  margin-top: 2%;
+}
+
+.left-title7 {
+  font-size: 0.8vw;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 30%;
+}
+
+.left-title7 h4 {
+  margin-top: 2%;
+}
+
+/* right */
+
+.right {
+  width: 70%;
+  margin-top: -23%;
+  margin-left: 10%;
+}
+
+.right-title {
+  width: 90%;
+  margin-top: 10%;
+}
+
+.title-poeme {
+  width: 50%;
+}
+
+.right-under {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line */
+
+.line2 {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 28vw;
+  background-color: white;
+}
+
+.line3 {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 31vw;
+  background-color: white;
+}
+
+.line4 {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 23vw;
+  background-color: white;
+}
+
+.line5 {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 25vw;
+  background-color: white;
+}
+
+.line6 {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 5%;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 27vw;
+  background-color: white;
+}
+
+.right-text p {
+  margin-top: 7%;
+  font-size: 1.4vw;
+  line-height: 1.4;
+  width: 80%;
+}
+
+/* soro size */
+
+.soro-size {
+  width: 60%;
+}
+
+/* animation */
+
+.move {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .femmes-texte {
+    font-size: 16px;
+  }
+  .right-text p {
+    font-size: 16px;
+  }
+  .line2 {
+    width: 1px;
+    height: 28vw;
+  }
+  .line3 {
+    width: 1px;
+    height: 32vw;
+  }
+  .line4 {
+    width: 1px;
+    height: 24vw;
+  }
+  .line5 {
+    width: 1px;
+    height: 25vw;
+  }
+  .line6 {
+    width: 1px;
+    height: 30vw;
+  }
+}

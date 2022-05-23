@@ -1,0 +1,124 @@
+.paiement {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+/*money*/
+
+.money {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.money-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  width: 170%;
+}
+
+/* blue card */
+
+.bluecard {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  width: 170%;
+}
+
+/* button */
+
+.button-input {
+  width: 10%;
+}
+
+.button {
+  margin-top: 100%;
+  border: 0px;
+  width: 100%;
+  height: 1.2vw;
+}
+
+.button-card {
+  margin-top: 150%;
+  border: 0px;
+  width: 100%;
+  height: 1.2vw;
+}
+
+/*img */
+
+.money-img {
+  width: 20%;
+}
+
+.bluecard-img {
+  width: 20%;
+}
+
+/* text */
+
+.text {
+  margin-left: 8%;
+}
+
+.text-title {
+  font-family: Poppins-bold;
+  font-size: 3vw;
+}
+
+.text-text {
+  margin-top: 5%;
+  font-size: 1.3vw;
+}
+
+/* button valider */
+
+.button-valid {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.valider {
+  text-decoration: none;
+  padding: 1% 2%;
+  border-radius: 30px;
+  font-size: 1.2vw;
+  color: white;
+  border: thick double #f4f2e6;
+  background-color: #171717;
+}
+
+.valider:hover {
+  border: thick double #f0c300;
+  color: #f0c300;
+}
+
+/* line */
+
+.line {
+  display: block;
+  content: "";
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  background-color: #f4f2e6;
+}
+
+@media (max-width: 1000px) {
+  .text-text {
+    font-size: 16px;
+  }
+}
