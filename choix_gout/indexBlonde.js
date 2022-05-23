@@ -417,7 +417,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/choix_gout/indexEpice.html', '_self');
+		window.open('/IsisFinale/choix_gout/indexEpice.html', '_self');
 		});
 		var _this = this;
 		/*
@@ -457,7 +457,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Isis/choix_gout/indexFruit.html', '_self');
+		window.open('/IsisFinale/choix_gout/indexFruit.html', '_self');
 		});
 	}
 	this.frame_58 = function() {
@@ -475,7 +475,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Isis/choix_gout/indexEpice.html', '_self');
+		window.open('/IsisFinale/choix_gout/indexEpice.html', '_self');
 		});
 	}
 
